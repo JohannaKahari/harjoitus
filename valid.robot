@@ -4,7 +4,7 @@ Library     SeleniumLibrary
 
 *** Variables ***
 ${Login-Url}      http://localhost:7272
-${Browser}       chrome
+${Browser}        chrome
 
 
 *** Test Cases ***
@@ -37,4 +37,4 @@ Submit Credentials
     Click Button   id=login_button
 
 Welcome Page Should Be Open
-    Title Shoud Be      Welcome Page 
+    Title Shoud Be      Welcome Page
